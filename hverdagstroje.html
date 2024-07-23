@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Roboto+Slab:wght@400;700&family=Ubuntu+Mono&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="slide.css">
+
+    <title>Opskrifter</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="index.html"><img src="img/logo/logo.webp" alt="Logo" class="logo"></a>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="ordbog.html">Ordbog</a></li>
+                <li><a href="guides.html">Guides</a></li>
+                <li><a href="opskrifter.html">Opskrifter</a></li>
+                <li><a href="omos.html">Om os</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="bc_flex_row luft_2">
+            <a href="index.html" class="bc_item">Hjem</a>
+            <p class="bc_item">/</p>
+            <a href="opskrifter.html" class="bc_item">Opskrifter</a>
+            <p class="bc_item">/</p>
+            <a href="hverdagstroje.html" class="bc_item">Hverdagstrøjen</a>
+        </div>
+        <div class="grid_1-1 luft">
+            <div class="wrapper">
+                <div class="carousel">
+                    <ul class="slides">
+                        <input type="radio" name="radio-buttons" id="img-1" checked />
+                        <li class="slide-container">
+                            <div class="slide-image">
+                                <img src="img/hverdagstrojen.webp">
+                            </div>
+                            <div class="carousel-controls">
+                                <label for="img-3" class="prev-slide">
+                                    <span>&lang;</span>
+                                </label>
+                                <label for="img-2" class="next-slide">
+                                    <span>&rang;</span>
+                                </label>
+                            </div>
+                        </li>
+                        <input type="radio" name="radio-buttons" id="img-2" />
+                        <li class="slide-container">
+                            <div class="slide-image">
+                                <img src="img/hverdagstrojen_02.webp">
+                            </div>
+                            <div class="carousel-controls">
+                                <label for="img-1" class="prev-slide">
+                                    <span>&lang;</span>
+                                </label>
+                                <label for="img-3" class="next-slide">
+                                    <span>&rang;</span>
+                                </label>
+                            </div>
+                        </li>
+                        <input type="radio" name="radio-buttons" id="img-3" />
+                        <li class="slide-container">
+                            <div class="slide-image">
+                                <img src="img/hvid_troje.webp">
+                            </div>
+                            <div class="carousel-controls">
+                                <label for="img-2" class="prev-slide">
+                                    <span>&lang;</span>
+                                </label>
+                                <label for="img-1" class="next-slide">
+                                    <span>&rang;</span>
+                                </label>
+                            </div>
+                        </li>
+                        <div class="carousel-dots">
+                            <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+                            <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+                            <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <h3>Hverdagstrøjen</h3>
+                <p>Denne klassiske hverdagstrøje er den perfekte følgesvend til afslappede dage og hyggelige øjeblikke.
+                    Med dens enkle
+                    design og komfortable pasform er den ideel til at holde dig varm og stilfuld i alle sæsoner. Trøjen
+                    er let at strikke og
+                    passer perfekt til både begyndere og erfarne strikkere. Gør din garderobe komplet med denne tidløse
+                    og alsidige trøje.</p>
+                <a href="#">Download</a>
+            </div>
+        </div>
+        <div class="roed">
+            <div>
+                <h2 class="alt_p">Guides til opskriften</h2>
+            </div>
+            <div class="grid_1-1 luft">
+                <div>
+                    <img src="img/video_01.webp" alt="Video 1">
+                </div>
+                <div class="order">
+                    <h3 class="alt_p">Retmasker</h3>
+                    <p class="alt_p">Denne video guider dig gennem grundlæggende teknikker til at strikke retmasker, en
+                        vigtig
+                        færdighed i strikning. Lær
+                        hvordan du danner glatte, ensartede retstrikker for at skabe smukke strikkeprojekter.</p>
+                </div>
+            </div>
+            <div class="grid_1-1 luft">
+                <div>
+                    <img src="img/video_03.webp" alt="Video 3">
+                </div>
+                <div class="order">
+                    <h3 class="alt_p">Drejet ret</h3>
+                    <p class="alt_p">Drejet retmasker er en avanceret teknik, der tilføjer struktur og interesse til
+                        dine
+                        strikkeprojekter. Denne video viser
+                        dig, hvordan du udfører denne teknik trin for trin og giver dig mulighed for at skabe smukke
+                        mønstre og detaljer i dine
+                        strikninger.</p>
+                </div>
+            </div>
+            <div class="flex_col">
+                <h2 class="alt_p">Flere Guides</h2>
+                <p class="alt_p">Vores videoguide-sektion er fyldt med en skattekiste af strikketeknikker og mønstre,
+                    men det er kun begyndelsen. Hvis du
+                    ønsker at dykke dybere ind i verdenen af strikning, så vær sikker på at udforske vores komplette
+                    bibliotek af
+                    videoguides. Der er noget for enhver, uanset om du søger at mestre nye færdigheder eller udfordre
+                    dig selv med
+                    avancerede projekter. Klik dig igennem og opdag endnu flere muligheder for at forfine dine
+                    strikkefærdigheder og skabe
+                    fantastiske håndværk.</p>
+                <a href="guides.html" class="blaa_knap">Guides</a>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div>
+            <a href="omos.html">
+                <p class="alt_p1">Håndstrik</p>
+                <p class="alt_p1">Guldbergsgade 29 N, 2200 KBH N</p>
+                <p class="alt_p1">kontakt@håndstrik.dk</p>
+            </a>
+        </div>
+        <div>
+            <a href="index.html"><img src="img/logo/logo_dk.webp" alt="Logo" class="logo_dk"></a>
+        </div>
+        <div class="social_flex">
+            <p class="alt_p1">Følg os på sociale medier</p>
+            <div class="social_icon_flex">
+                <img src="img/logo/instagram.svg" alt="Instagram Logo" class="icon_social">
+                <img src="img/logo/youtube.svg" alt="Youtube Logo" class="icon_social">
+            </div>
+        </div>
+    </footer>
+
+    <script src="menu.js"></script>
+</body>

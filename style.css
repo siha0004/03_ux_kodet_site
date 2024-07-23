@@ -1,0 +1,333 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: #2e2e2e;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.icon {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+.icon_2 {
+  height: 0.6rem;
+  width: auto;
+}
+
+.icon_social {
+  height: 2rem;
+  width: auto;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin: 0.5rem 2rem;
+}
+
+.logo_dk {
+  width: 160px;
+  height: auto;
+}
+
+/* BASE */
+header {
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #333a48;
+  box-shadow: 0 0 10px #11111180;
+  padding: 0.25rem;
+}
+
+main {
+  background-color: #e4dad1;
+  padding-bottom: 2rem;
+}
+
+footer {
+  background-color: #333a48;
+  padding: 2rem;
+}
+
+/* OVERSKRIFTER OG TEKST  */
+h1 {
+  font-family: Neuton, serif;
+  text-transform: uppercase;
+  font-size: 2.25rem;
+  color: #333a48;
+
+  overflow-wrap: break-word;
+  hyphens: auto;
+
+  margin: 1rem 0;
+}
+
+h2 {
+  font-family: Neuton, serif;
+  text-transform: uppercase;
+  font-size: 1.75rem;
+  color: #333a48;
+  text-align: center;
+
+  overflow-wrap: break-word;
+  hyphens: auto;
+
+  margin: 2rem;
+}
+
+h3 {
+  font-family: Neuton, serif;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  color: #333a48;
+
+  overflow-wrap: break-word;
+  hyphens: auto;
+
+  margin: 1rem 0rem;
+}
+
+p {
+  font-family: Neuton, serif;
+  font-size: 0.75rem;
+  color: #333a48;
+  line-height: 1rem;
+
+  margin: 0 0 1rem 0;
+  max-width: 70ch;
+}
+
+.alt_p {
+  color: #e4dad1;
+}
+
+.alt_p1 {
+  font-family: Open Sans, serif;
+  font-size: 0.6rem;
+  font-weight: 600;
+  margin: 0;
+
+  text-align: center;
+  text-transform: uppercase;
+  color: #e4dad1;
+}
+
+.alt_p2 {
+  font-family: Open Sans, serif;
+  font-size: 0.8rem;
+  margin: 0.5rem;
+
+  text-transform: uppercase;
+  color: #e4dad1;
+}
+
+/* LINKS */
+a {
+  text-decoration: none;
+  color: #e4dad1;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #e4dad1;
+}
+
+a:hover {
+  color: #a9adb6;
+}
+
+a.bc_item {
+  font-family: Open Sans, serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+
+  color: #333a48;
+  text-transform: uppercase;
+  display: inline;
+}
+
+/* KNAPPER */
+.knap {
+  background-color: #333a48;
+  border-radius: 5px;
+  padding: 0.5rem;
+
+  font-family: Open Sans, sans-serif;
+  font-size: 0.6rem;
+  font-weight: 600;
+  color: #e4dad1;
+  text-transform: uppercase;
+  width: fit-content;
+}
+
+.blaa_knap {
+  background-color: #333a48;
+  border-radius: 5px;
+  padding: 0.5rem;
+
+  font-family: Open Sans, sans-serif;
+  font-size: 0.6rem;
+  font-weight: 600;
+  color: #e4dad1;
+  text-transform: uppercase;
+  width: fit-content;
+}
+
+/* LISTER */
+ul {
+  font-family: Open Sans, serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+
+  text-transform: uppercase;
+  color: #e4dad1;
+  padding: 1rem 1rem 1rem 1rem;
+  margin: 0;
+}
+
+li {
+  padding: 0 1rem;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+/* BAGGRUNDSFARVER PÅ ENKELTE ELEMENTER */
+.sand {
+  background-color: #e4dad180;
+  padding: 2rem;
+  height: fit-content;
+}
+
+.blaa {
+  background-color: #333a48;
+  padding: 2rem 0;
+}
+
+.roed {
+  background-color: #913529;
+  padding: 2rem 0;
+}
+/* HERO */
+.hero_1 {
+  display: flex;
+  justify-content: space-around;
+  background-image: url(img/trojer_haenger.webp);
+  padding: 2rem;
+}
+
+.hero_2 {
+  display: flex;
+  justify-content: space-around;
+  background-image: url(img/garnnogler.webp);
+  padding: 2rem;
+}
+
+.hero_3 {
+  display: flex;
+  justify-content: space-around;
+  background-image: url(img/vinterklud.webp);
+  padding: 2rem;
+}
+
+.hero_4 {
+  display: flex;
+  justify-content: space-around;
+  background-image: url(img/trojer_foldet.webp);
+  padding: 2rem;
+}
+
+/* GRIDS OG FLEX */
+.grid_1-1 {
+  margin: 2rem 2rem;
+}
+
+p.dummy {
+  background-color: #333a48;
+  color: #e4dad1;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+.bc_flex_row {
+  padding: 1rem;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.flex_col {
+  padding: 1rem 2rem;
+}
+
+/* ACCORDION */
+.box {
+  background-color: #333a48;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+.accordion {
+  background-color: #333a48;
+  color: #e4dad1;
+  cursor: pointer;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  padding: 0.5rem;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+}
+
+.panel {
+  background-color: #333a48;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  padding-left: 1rem;
+}
+
+@media (min-width: 800px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  .luft {
+    margin: 2rem 10%;
+  }
+
+  .luft_2 {
+    margin: 0 10%;
+    padding-top: 2rem;
+  }
+}
